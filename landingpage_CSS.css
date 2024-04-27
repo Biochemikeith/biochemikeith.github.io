@@ -11,7 +11,7 @@
 
 .section1 {
   width: 50%;
-  border: 45px;
+  margin-bottom: 80px;
 }
 
 p{
@@ -22,8 +22,9 @@ li{
   font-size: 24px;
 }
 
-h2{
-  font-size: 60px
+.Next_Head{
+  margin-top: 20px;
+  font-size: 60px;
   color: blue;
   text-align: center;
 }

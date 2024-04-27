@@ -1,5 +1,7 @@
 
-
+html{
+  background-color: #eeeeee
+}
 
 
 h1{
@@ -17,8 +19,6 @@ text-transform: uppercase;
 #position{
 
 font-size: 18px;
-
-font-weight: 600
 
 }
 
@@ -48,7 +48,7 @@ border-bottom: 1px solid #2F5A78;
 
 body{
 
-font-family: "Tomes New Roman", Arial;
+font-family: "Times New Roman", Arial;
 
 }
 
@@ -66,7 +66,7 @@ header {
 
 text-align: center;
 
-background-color: #eeeeee;
+background-color: darkkhaki;
 
 padding-top: 2px;
 
@@ -74,13 +74,6 @@ padding-bottom: 5px;
 
 }
 
-
-
-#copyright {
-
-text-align: center;
-
-}
 
 
 
@@ -141,4 +134,13 @@ border: 5px;
 
     align: center;
 
+}
+
+#wetlab_skills{
+  padding: 10px;
+}
+
+
+#software_skills{
+  padding: 10px;
 }

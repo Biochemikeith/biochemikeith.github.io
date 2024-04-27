@@ -1,8 +1,17 @@
 /* This is a comment in CSS */
 
+html{
+  background-color: #eeeeee
+}
+
+
+head{
+  background-color: darkkhaki;
+}
+
 
 .Title {
-  color: blue;
+  color: #2F5A78;
   position: relative;
   outline-color: red;
   font-size: 80px;

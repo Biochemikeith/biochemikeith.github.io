@@ -1,7 +1,7 @@
 /* This is a comment in CSS */
 
 
-#Title {
+.Title {
   color: blue;
   position: relative;
   outline-color: red;
@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-#section1 {
+.section1 {
   width: 50%;
   border: 45px;
 }

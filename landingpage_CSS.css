@@ -7,15 +7,19 @@ html{
 
 header{
   background-color: darkkhaki;
-}
-
-
-.Title {
   color: #2F5A78;
   position: relative
   font-size: 80px;
   text-align: center;
 }
+
+
+/*.Title {
+  color: #2F5A78;
+  position: relative
+  font-size: 80px;
+  text-align: center;
+}*/
 
 .section1 {
   width: 50%;
@@ -32,7 +36,7 @@ li{
 
 .Next_Head{
   margin-top: 20px;
-  font-size: 60px;
+  font-size: 32px;
   color: #2F5A78;
   text-align: center;
 }

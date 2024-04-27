@@ -1,9 +1,29 @@
 /* This is a comment in CSS */
 
 
-.Title {
+#Title {
   color: blue;
+  position: relative;
   outline-color: red;
   font-size: 80px;
+  text-align: center;
+}
+
+#section1 {
+  width: 50%;
+  border: 45px;
+}
+
+p{
+  font-size: 32px;
+}
+
+li{
+  font-size: 24px;
+}
+
+h2{
+  font-size: 60px
+  color: blue;
   text-align: center;
 }

@@ -14,9 +14,11 @@ text-transform: uppercase;
 
 
 
-#position {
+#position{
 
 font-size: 18px;
+
+font-weight: 600
 
 }
 
@@ -47,16 +49,6 @@ border-bottom: 1px solid #2F5A78;
 body{
 
 font-family: "Tomes New Roman", Arial;
-
-}
-
-
-
-#position{
-
-font-size: 18px;
-
-font-weight: 900
 
 }
 

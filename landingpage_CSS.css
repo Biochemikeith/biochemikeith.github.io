@@ -5,15 +5,14 @@ html{
 }
 
 
-head{
+header{
   background-color: darkkhaki;
 }
 
 
 .Title {
   color: #2F5A78;
-  position: relative;
-  outline-color: red;
+  position: relative
   font-size: 80px;
   text-align: center;
 }
@@ -34,6 +33,6 @@ li{
 .Next_Head{
   margin-top: 20px;
   font-size: 60px;
-  color: blue;
+  color: #2F5A78;
   text-align: center;
 }

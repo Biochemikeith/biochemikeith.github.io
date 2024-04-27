@@ -122,7 +122,6 @@ border: 5px;
 .skills{
 
     border:3px solid black;
-    padding: 16px;
 
 }
 
@@ -136,3 +135,11 @@ border: 5px;
 
 }
 
+#wetlab_skills{
+  margin: 10px;
+}
+
+
+#software_skills{
+  margin: 10px;
+}

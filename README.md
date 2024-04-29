@@ -1,2 +1,2 @@
 # biochemikeith.github.io
-This is a site that is dedicated to career development and sharing of projects created by Keith Steiger Jr. (Biochemikeith). 
+This is a site that is dedicated to career development and sharing of projects created by Keith Steiger Jr. (Biochemikeith). I have included links from my landing page to a page with my resume and a page with my swansea city afc match statistics analysis. I am new to the world of coding (and statistical analysis), but I am young enough and eager to learn! Please reach out if you have thoughts about how I can improve my code, analysis, or the aesthetics of any of my pages.

@@ -16,7 +16,14 @@
     <p>
       One of my favorite television shows growing up was Bill Lawrence's Scrubs. I was motivated by the performances of the entire cast. This project is in its infancy(although I have worked on it off and on for some time), but I will try to perform text mining of the entire series using word count data cleaned from subtitle files found online. Big shout out to Roman Spektor for encouraging me to develop my coding skills with this very project. I write in R primarily, except when I'm devloping my HTML web pages, and I followed tidy principles with the help of <a href="https://www.tidytextmining.com/">This helpful book</a>. Please enjoy what I have to share, and reach out if you have thoughts or concerns.
     </p>
-    <h2><a href="scrubs_Negativity_by_season.pdf">Sentiment Analysis</a></h2>
+    <h2><a href="scrubs_Negativity_by_season.pdf">Negativity by Season</a></h2>
+    <p>Here, I compare the negativity of each season using the <i>bing</i> lexicon to label each word extracted from the subrip subtitle file being assigned "negative" or "positive" as indicated by the lexicon dictionary. The value of each tokenized word in each episode is then added to the sentiment total for the episode and is plotted in the graph above. Each season has a number box with the episodes in sequential order on the x-axis and the negativity (or positivity) on the y-axis. As you can see, the series in-whole is quite negative, which makes sense given the sitcom is set in a hospital. On caveat to an analysis like this is that not every word that exists will be included in the lexicon dictionary used. This can lead to some words, particular slang, being excluded from the analysis resulting in more or less negativity than might truly exist in the show.</p>
+    <br><br><br>
+    <h2><a href="top_sentiment_contributing_words_w-bing.pdf">Top sentiment contributing words</a></h2>
+    <p>In the above figure, I took a look under the hood to see which words were contibuting most to the negativity we are seeing. With this analysis, the per episode and per season granularity is stripped away. We can also notice that the top 10 negative words occur less frequently than the top ten positive words. Maybe this is an indication that there are simply more diversity in negative words than in positive words.</p>
+    <br><br><br>
+    <h2><a href="scrubs_wordcloud_ALLwords.pdf">Wordcloud with frequency-based sizing</a></h2>
+    <p>In this figure, I used the wordcloud package in R to create just that, a word cloud. The size of each word in the cloud is scaled based on the frequency of its use. This visualization loses the sentiment-value scoring that we saw in the first figure, but sure is a fun way to look at word abundance!</p>
   </body>
   
   <footer>
